@@ -1,0 +1,1017 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> 是德科技中国 分销商新闻快讯 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<!-- css -->
+<style>
+	html{ -webkit-text-size-adjust:none; }
+	.clearb:after {
+	  clear: both;
+	  overflow: hidden;
+	  display: block;
+	  height: 0px;
+	  visibility: hidden;
+	  border: 0px;
+	  content: ' ';
+	}
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+	.red{ color: #e80327; }
+	.arrow{
+		display: none;
+	}
+	.tabTitle td {
+		cursor: pointer;
+	}
+	.tabTitle td.show{
+		background: url('images/arrow.png') center no-repeat #e80028; 
+		background-size: 21px;
+	}
+	/*ul*/
+	ul, li{ padding: 0; margin: 0; }
+	.tabTitle {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tabTitle li{
+		width: 16.6%;
+	    border-top: 3px solid #e80028;
+	    border-bottom: 3px solid #e80028;
+	    float: left;
+	    text-align: center;
+	    display: block;
+	    border-right: 1px solid #e80028;
+	    height: 60px;
+	    line-height: 60px;
+	    position: relative;
+	    box-sizing: border-box;
+	    cursor: pointer;
+	    padding: 0 2px;
+	}
+	.tabTitle li:hover{
+		color: #FFF;
+		background: #e80028;
+	}
+	.tabTitle li:hover a{
+		color: #FFF;
+	}
+	.tabTitle li.twoLine{
+		/*padding-top: 6px;*/
+	}
+	.tabTitle li a{
+		color: #2b2b2b;
+		font-size: 13px;
+		font-family: 'arial, 宋体';
+		text-decoration: none;
+		display: inline-block;
+		width: 100%;
+		line-height: 13px;
+		vertical-align: middle;
+		box-sizing: border-box;
+	}
+	.tabTitle li:last-child{
+		border-right: none;
+		
+	}
+	
+	.tabTitle td.show a{
+		color: #FFF !important;
+	}
+	.tabTitle li.show{
+		background: #e80028;
+	}
+	.tabTitle li.show a{
+		color: #FFF;
+
+	}
+	.tabTitle li.show .arrow{
+		display: block;
+		position: absolute;
+		left: 50%;
+		margin-left: -10px;
+		bottom: -44px;
+	}
+	.changeTab {
+		display: none;
+	}
+	.changeTab.show{
+		display: table-row;
+	}
+
+
+
+	@media (max-width: 799px) {
+		.res_table{
+			width: 100% !important;
+			max-width:800px;
+			height: auto !important;
+		}
+		.res_table .banner img,
+		.footer img{
+			width: 100% !important;
+			max-width: 800px;
+			height: auto !important;
+		}
+		
+		/*banner*/
+		.banner{ position: relative; }
+		.bannerWords{
+			position: absolute;
+			bottom: 8%;
+			left: 4%;
+			color: #FFF;
+			font-family: '黑体';
+			word-spacing:2px; 
+			letter-spacing: 1px;
+			
+		}
+		.bannerWords h2{ padding: 0 0 1.5%; margin: 0; font-size: 23px; letter-spacing: 2px;}
+		.bannerWords h3{ padding: 0 0 3.5%; margin: 0;  font-size: 14px; letter-spacing: 2px; }
+		.bannerWords p{ padding: 0 0 1.5%; margin: 0;  font-family: 'arial, 黑体'; word-spacing:2px; }
+		.bannerWords .bannerTime{ display: inline-block; height: 30px; line-height: 30px; width: 80px; background: #FFF; text-align: center; padding-bottom: 0;}
+
+		
+	}
+	@media (max-width: 680px) {
+		ul{ margin: 0; padding: 0; }
+		ul li{ list-style-type:disc; }
+		.Pc{
+			display: none !important;
+		}
+		.Mb{
+			display: block !important;
+		}
+		.changeH{ height: 10px !important; }
+		.changeW{ width: 10px !important; }
+		.logo img{
+			width: 112px !important;
+			height: auto !important;
+			vertical-align: middle !important;
+		}
+		table td,
+		table th,
+		ul li{
+			font-size: 13px !important;
+			font-family: 'arial,黑体';
+			word-break: break-word;
+		}
+		
+		.tabTitle{
+			width: 100%;
+		}
+		.tabTitle li.show .arrow{bottom: -38px;}
+		
+		.List{ width: 100%;     box-sizing: border-box; margin: 0 auto; padding-left: 20px; padding-right: 5px;}
+		.List li{ font-size: 12px;  line-height: 22px; list-style-type: none;}
+		.List1{ margin-top: 10px; width: 90%; padding-left: 10px;}
+		.List1 li{ padding-left:10px; background: url('images/dot.png') left 10px no-repeat;  
+			background-size: 3px 3px;}
+
+		.ListTable{ width: 100%; border: 4px solid #eaeaea; padding: 15px; }
+		.ListTable li{ width: 100%;  }
+		.ListTableLine{ padding-left: 0; width: 100%; border-bottom: 1px solid #eaeaea; padding-bottom: 10px;}
+		.noBorder{ border-bottom:none; }
+		.ListTableLine li{  }
+		.ListTableLine li.title{ font-size: 14px; font-weight: bold; }
+		.ListTableLine li .chack{ display: inline-block; width: 80px; background: #ec0028; color: #FFF; text-align: center; 
+			margin-top: 6px; font-size: 12px !important;}
+		.listBg{
+			padding-left: 15px;
+			background: url(images/arrowLeftRed.png) left 6px no-repeat;
+			background-size: 6px;
+		}
+	}
+</style>
+
+</head>
+
+<body style="margin:0px; padding:0px;">
+
+<table class="res_table container" width="800" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+	<tbody>
+		<!-- top -->
+		<tr >
+			<td valign="top" class="logo" align="right">
+				<img src="images/logo.jpg" alt="logo" border="0" width="186" height="64" class="logoImg" />
+			</td>
+		</tr>
+		<tr class="Pc">
+			<td valign="top" class="banner">
+				<img src="images/banner.png" border="0" width="800" height="290" alt="banner" class="bannerImg"/>
+			</td>
+		</tr>
+		<tr class="Mb">
+			<td valign="top" class="banner">
+				<img src="images/bannerMb.png" border="0" width="800" height="290" alt="banner" class="bannerImg"/>
+				<div class="bannerWords">
+					<h2>是德科技</h2>
+					<h3>中国分销商新闻快讯</h3>
+					<p>Keysight News for Distributors China</p>
+					<p class="bannerTime red">2017年5月</p>
+				</div>
+			</td>
+		</tr>
+		<!-- 本期重点提示 -->
+		<tr>
+			<td valign="top">
+				<table width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr><td class="changeH" colspan="2" height="20">&nbsp;</td></tr>
+					<tr>
+						<td valign="center" align="center" width="54" height="50" style="background: #eaeaea;">
+							<img src="images/icon_1.png" alt="" border="0" width="31" height="39" />
+						</td>
+						<td valign="center" height="50" style="font-family:'arial,黑体' !important; font-size: 14px !important; background: #eaeaea;"><strong>本期重点提示</strong></td>
+					</tr>
+				</table>
+				<table class="Pc" width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr><td height="14">&nbsp;</td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                    关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="12" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="14" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	【价格变化】请即刻登录Gateway下载2017年6月份最新价格表。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="9" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	东盟免税产品有变化，详情请见【文档共享】中的【东盟免税】
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="9" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="19" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+				</table>
+				<ul class="Mb List List1">
+					<li>
+						关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
+					</li>
+					<li>
+						FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
+					</li>
+					<li>
+						【价格变化】请即刻登录Gateway下载2017年6月份最新价格表。
+					</li>
+					<li>
+						东盟免税产品有变化，详情请见【文档共享】中的【东盟免税】
+					</li>
+					<li>
+						<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
+					</li>
+				</ul>
+			</td>
+		</tr>
+		<tr><td valign="top" height="10"></td></tr>
+		<!-- 切换标题 -->
+		<tr>
+			<td>
+				<ul class="tabTitle clearb">
+				 	<li class="show">
+				 		<a href="index_01.html" >现货供应</a>
+				 		<div class="arrow">
+				 			<img src="images/arrow.png" alt="">
+				 		</div>
+				 	</li>
+				 	<li class="twoLine">
+				 		<a href="#" >产品订货及促销</a>
+				 	</li>
+				 	<li class="twoLine">
+				 		<a href="index_03.html" >产品活动及信息</a>
+				 	</li>
+				 	<li>
+				 		<a href="#" >积分英雄榜</a>
+				 	</li>
+				 	<li>
+				 		<a href="#" >文档共享</a>
+				 	</li>
+				 	<li class="twoLine">
+				 		<a href="#" >常用及培训信息</a>
+				 	</li>
+				 </ul>
+				 
+			</td>
+		</tr>
+		<!-- 切换内容 1-->
+		<tr id="changeTab_1" class="changeTab changeTab_1 show">
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<!-- 标题 -->
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="26" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="20" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family:'arial,黑体'"><strong>现货供应信息</strong></td>
+								</tr>
+								<tr><td colspan="3" height="15"></td></tr>
+							</table>
+							<!-- 内容 -->
+							<table class="Pc" width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px; border: 4px solid #eaeaea;">
+								<!-- 第一部分 -->
+								<tr><td colspan="5" height="10"></td></tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">【LCR测试夹具】</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">【LCR测试夹具】</td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;广州科欣仪器有限公司 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;北京中计新科仪器有限公司  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;联系人：曾淯珊</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;联系人：尚松泉  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;电话：020-38699788 ext. 802</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：010-64218625  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;手机：13926019625</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;手机：18618133636 </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;传真：020-34395932 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;传真：010-64200534   </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;邮箱：<a href="mailto:fenxiao@gzkexin.com.cn">fenxiao@gzkexin.com.cn</a></td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com</a> </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22" ></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.gzkexin.com.cn/news_d-228.html" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.nimchina.com/proinfo.aspx?ProductsId=211&amp;CateId=55" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" ></td>
+									<td style="border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="15" height="16" style="border-bottom:1px solid #eaeaea; ">&nbsp;</td>
+									<td style="border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="20" style="border-bottom:1px solid #FFF; ">&nbsp;</td>
+								</tr>
+								
+								<!-- 第二部分 -->
+								<tr class="Pc">
+									<td colspan="2" style="border-right:1px solid #eaeaea;"></td>
+									<td colspan="3" height="16"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">【N3300 系列电子负载】 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">【示波器探头】  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;广州科欣仪器有限公司  </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;北京中计新科仪器有限公司  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;联系人：曾淯珊</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;联系人：尚松泉 </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;电话：020-38699788 ext. 802</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：010-64218625  </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;手机：13926019625 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;手机：18618133636 </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;传真：020-34395932 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;传真：010-64200534   </td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;邮箱：<a href="mailto:fenxiao@gzkexin.com.cn">fenxiao@gzkexin.com.cn</a></td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com </a></td>
+									<td width="20"></td>
+								</tr>
+								<tr class="Pc">
+									<td width="15" height="22" ></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.gzkexin.com.cn/news_d-226.html" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+											
+										</table>
+									</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.nimchina.com/proinfo.aspx?ProductsId=82&amp;CateId=35" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+											
+										</table>
+									</td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15"></td>
+									<td style="border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="15" height="16" style="border-bottom:1px solid #eaeaea; ">&nbsp;</td>
+									<td style="border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="20" style="border-bottom:1px solid #FFF; ">&nbsp;</td>
+								</tr>
+								<!-- 第三部分 -->
+								<tr>
+									<td colspan="2" style="border-right:1px solid #eaeaea;"></td>
+									<td colspan="3" height="16"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">【TAO 微波附件】 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">【TAO 微波附件】 </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;北京中计新科仪器有限公司 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;深圳市世强先进科技有限公司  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;联系人：尚松泉</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;联系人：张茂君  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;电话：010-64218625 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：0755-25155465   </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;手机：18618133636 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：0755-25155465  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;传真：010-64200534  </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;传真：0755-25165635   </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com</a></td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;邮箱：<a href="mailto:kate_zhang@sekorm.com">kate_zhang@sekorm.com</a></td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22" ></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.nimchina.com/proinfo.aspx?ProductsId=210&amp;CateId=55" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="" align="center">
+													<a href="#" style="text-decoration: none; color: #FFF; font-size: 12px;">&nbsp;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15"></td>
+									<td style="border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="15" height="16" style="border-bottom:1px solid #eaeaea; ">&nbsp;</td>
+									<td style="border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="20" style="border-bottom:1px solid #FFF; ">&nbsp;</td>
+								</tr>
+
+								<!-- 第四部分 -->
+								<tr>
+									<td colspan="2" style="border-right:1px solid #eaeaea;"></td>
+									<td colspan="3" height="16"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">【B2900--可支持美金免税合同】</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">【B2900A】 </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;和创联合科技（北京）有限公司</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;无锡市邦达测量科技有限公司  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;联系人：宋璇 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;联系人：丁姗  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;电话：010-82601400 ext. 8000 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：0510-85258521-8013  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;手机：13011216456</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;手机：15261551636 </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;传真：010-82601400 ext. 8001  </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;传真：0510-85258523    </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;邮箱：<a href="mailto:xuan-song@hisuntest.com">xuan-song@hisuntest.com</a></td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;邮箱：<a href="mailto:dingshan@bdyiqi.com">dingshan@bdyiqi.com</a> </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22" ></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.hisuntest.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=116&amp;id=40" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="26"></td>
+												<td style="background: #ec0028;" align="center">
+													<a href="http://www.bdyiqi.com/NewsView.asp?ID=185&amp;SortID=11" style="text-decoration: none; color: #FFF; font-size: 12px;">库存查询 &gt;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" ></td>
+									<td style="border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="15" height="16" style="border-bottom:1px solid #eaeaea; ">&nbsp;</td>
+									<td style="border-bottom:1px solid #eaeaea;">&nbsp;</td>
+									<td width="20" style="border-bottom:1px solid #FFF; ">&nbsp;</td>
+								</tr>
+
+								<!-- 第五部分 -->
+								<tr>
+									<td colspan="2" style="border-right:1px solid #eaeaea;"></td>
+									<td colspan="3" height="16"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">【N89 系列电源】  </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">【1000 系列示波器】   </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;北京东方中科集成股份有限公司 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;广州康祺科技发展有限公司  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;联系人：杨永刚</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;联系人：黄锦花  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;电话：0755-83280522 ext. 814 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;电话：020-38295200 ext. 603  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;手机：18688960496 </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;手机：13411156195  </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;传真：0755-83274899  </td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;传真：0755-83274899   </td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="22"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea;">&nbsp;邮箱：<a href="mailto:yangyg@oimec.com.cn">yangyg@oimec.com.cn</a></td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体';">&nbsp;邮箱：<a href="mailto:sunny@kontchi.com">sunny@kontchi.com </a></td>
+									<td width="20"></td>
+								</tr>
+								<tr>
+									<td width="15" height="2" ></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; border-right: 1px solid #eaeaea; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="2"></td>
+												<td style="" align="center">
+													<a href="#" style="text-decoration: none; color: #FFF; font-size: 12px;"></a>
+												</td>
+											</tr>
+											
+										</table>
+									</td>
+									<td width="15"></td>
+									<td style="color: #000;font-size: 12px; font-family:'arial,宋体'; ">
+										<table width="90" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+											<tr>
+												<td width="10" height="2"></td>
+												<td align="center">
+													<a href="#" style="text-decoration: none; color: #FFF; font-size: 12px;"></a>
+												</td>
+											</tr>
+											
+										</table>
+									</td>
+									<td width="20"></td>
+								</tr>
+								<tr><td colspan="5" height="16"></td></tr>
+							</table>
+							<!-- 内容 Mb -->
+							<ul class="Mb List ListTable">
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【LCR测试夹具】</li>
+										<li>广州科欣仪器有限公司</li>
+										<li>联系人：曾淯珊</li>
+										<li>电话：020-38699788 ext. 802</li>
+										<li>手机：13926019625</li>
+										<li>传真：020-34395932</li>
+										<li>邮箱：<a href="mailto:fenxiao@gzkexin.com.cn">fenxiao@gzkexin.com.cn</a></li>
+										<li><a class="chack" href="http://www.gzkexin.com.cn/news_d-228.html">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">	【LCR测试夹具】</li>
+										<li>北京中计新科仪器有限公司</li>
+										<li> 联系人：尚松泉</li>
+										<li>电话：010-64218625</li>
+										<li>手机：18618133636</li>
+										<li>传真：010-64200534</li>
+										<li>邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com</a></li>
+										<li><a class="chack" href="http://www.nimchina.com/proinfo.aspx?ProductsId=211&amp;CateId=55">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【N3300 系列电子负载】</li>
+										<li>广州科欣仪器有限公司</li>
+										<li> 联系人：曾淯珊</li>
+										<li> 电话：020-38699788 ext. 802</li>
+										<li> 手机：13926019625</li>
+										<li>传真：020-34395932</li>
+										<li>邮箱：<a href="mailto:fenxiao@gzkexin.com.cn">fenxiao@gzkexin.com.cn</a></li>
+										<li><a class="chack" href="http://www.gzkexin.com.cn/news_d-226.html">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【示波器探头】</li>
+										<li>北京中计新科仪器有限公司</li>
+										<li> 联系人：尚松泉</li>
+										<li>电话：010-64218625</li>
+										<li>手机：18618133636</li>
+										<li>传真：010-64200534</li>
+										<li>邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com</a></li>
+										<li><a class="chack" href="http://www.nimchina.com/proinfo.aspx?ProductsId=82&amp;CateId=35">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【TAO 微波附件】</li>
+										<li> 北京中计新科仪器有限公司</li>
+										<li> 联系人：尚松泉</li>
+										<li>电话：010-64218625</li>
+										<li>手机：18618133636</li>
+										<li>传真：010-64200534</li>
+										<li>邮箱：<a href="mailto:shangsongquan@163.com">shangsongquan@163.com</a></li>
+										<li><a class="chack" href="http://www.nimchina.com/proinfo.aspx?ProductsId=210&amp;CateId=55">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【TAO 微波附件】</li>
+										<li>深圳市世强先进科技有限公司</li>
+										<li> 	 联系人：张茂君</li>
+										<li>	 电话：0755-25155465</li>
+										<li>	 电话：0755-25155465</li>
+										<li>传真：0755-25165635</li>
+										<li> 邮箱：<a href="mailto:kate_zhang@sekorm.com">kate_zhang@sekorm.com</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">【B2900--可支持美金免税合同】</li>
+										<li>和创联合科技（北京）有限公司</li>
+										<li>	 联系人：宋璇</li>
+										<li>电话：010-82601400 ext. 8000</li>
+										<li> 手机：13011216456</li>
+										<li> 传真：010-82601400 ext. 8001</li>
+										<li> 邮箱：<a href="mailto:xuan-song@hisuntest.com">xuan-song@hisuntest.com</a></li>
+										<li><a class="chack" href="http://www.hisuntest.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=116&amp;id=40">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">	【B2900A】</li>
+										<li> 无锡市邦达测量科技有限公司</li>
+										<li> 联系人：丁姗</li>
+										<li>电话：0510-85258521-8013</li>
+										<li>	 手机：15261551636</li>
+										<li>传真：0510-85258523</li>
+										<li>邮箱：<a href="mailto:dingshan@bdyiqi.com">dingshan@bdyiqi.com</a></li>
+										<li><a class="chack" href="http://www.bdyiqi.com/NewsView.asp?ID=185&amp;SortID=11">库存查询 &gt;</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine">
+										<li class="title">	【N89 系列电源】</li>
+										<li>  北京东方中科集成股份有限公司</li>
+										<li>  联系人：杨永刚</li>
+										<li> 电话：0755-83280522 ext. 814</li>
+										<li>手机：18688960496</li>
+										<li> 传真：0755-83274899</li>
+										<li>邮箱：<a href="mailto:yangyg@oimec.com.cn">yangyg@oimec.com.cn</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="Mb List ListTableLine noBorder">
+										<li class="title">	【1000 系列示波器】</li>
+										<li>	 广州康祺科技发展有限公司</li>
+										<li> 联系人：黄锦花</li>
+										<li>	 电话：020-38295200 ext. 603</li>
+										<li>手机：13411156195</li>
+										<li> 传真：0755-83274899</li>
+										<li>邮箱：<a href="mailto:sunny@kontchi.com">sunny@kontchi.com </a></li>
+									</ul>
+								</li>
+								
+							</ul>
+						</td>
+					</tr>
+					<tr><td height="15" >&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+		<!-- 关注可调用的分销产品库存资源 -->
+		<tr>
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="1" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="20" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-family:'arial,黑体'; font-size: 14px;"><strong>关注可调用的分销产品库存资源</strong></td>
+								</tr>
+								<tr><td colspan="3" height="5"></td></tr>
+								<tr class="Pc">
+									<td colspan="2" width="28" height="48" ></td>
+									<td style=" font-size: 12px; color: #000; font-family:'arial,宋体'">从2015年7月起，我们将在每月月初的分销商通讯中向全国分销商更新及公布现有分销产品的库存信息。诸位如果您库房中有暂时无销售计划并愿意其他分销商来调货的库存产品，请在每月底结束之前通知我们。</td>
+								</tr>
+								<tr class="Pc">
+									<td colspan="2" width="28" height="10" ></td>
+									<td style=" font-size: 12px; font-family:'arial,宋体'">
+										<a href="#" style="color: #e80028; font-size: 12px; text-decoration: none;">&gt; 点击查看最新收集上来的可在05月份进行调货的产品列表</a>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										<ul class="Mb List">
+											<li>
+												从2015年7月起，我们将在每月月初的分销商通讯中向全国分销商更新及公布现有分销产品的库存信息。诸位如果您库房中有暂时无销售计划并愿意其他分销商来调货的库存产品，请在每月底结束之前通知我们。
+											</li>
+											<li class="listBg">
+												<a class="red" href="#"> 点击查看最新收集上来的可在05月份进行调货的产品列表</a>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr><td colspan="3" height="15"></td></tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- footer -->
+		<tr>
+			<td class="footer" align="center"><img src="images/end.jpg" alt="" width="800" height="144" border="0"></td>
+		</tr>
+		<tr>
+			<td bgcolor="#555555" height="36" align="center" style="color:#ffffff;font-size:12px;font-family:'arial,宋体';">
+	&copy; Keysight Technologies 2000-2017</td>
+		</tr>
+	</tbody>
+</table><script type="text/javascript">
+	
+	
+</script>
+</body>
+</html>

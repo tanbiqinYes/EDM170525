@@ -1,0 +1,1328 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> 是德科技中国 分销商新闻快讯 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<!-- css -->
+<style>
+	html{ -webkit-text-size-adjust:none; }
+	body{max-height:99999px; min-height:1px; font-size:13px;}
+	.clearb:after {
+	  clear: both;
+	  overflow: hidden;
+	  display: block;
+	  height: 0px;
+	  visibility: hidden;
+	  border: 0px;
+	  content: ' ';
+	}
+	.Mb{
+		display: none !important;
+	}
+	.arrow{
+		display: none;
+	}
+	.forHeight{ height: 10px; }
+	.noBorder{ height: 10px !important; border: none !important; background: #FFF;}
+	.noPaddingLeft{ padding-left: 0 !important; }
+	.tabTitle td {
+		cursor: pointer;
+	}
+	.tabTitle td.show{
+		background: url('images/arrow.png') center no-repeat #e80028; 
+		background-size: 21px;
+	}
+	.nounderLine{
+		text-decoration: none;
+	}
+	.resetWidth{ width: 80px; }
+	/*ul*/
+	ul, li{ padding: 0; margin: 0; }
+	.tabTitle {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tabTitle li{
+		width: 16.6%;
+		border-top: 3px solid #e80028;
+		border-bottom: 3px solid #e80028;
+		float: left;
+		text-align: center;
+		display: block;
+		border-right: 1px solid #e80028;
+		height: 60px;
+		line-height: 60px;
+		position: relative;
+		box-sizing: border-box;
+		cursor: pointer;
+		padding: 0 2px;
+	}
+	.tabTitle li:hover{
+		color: #FFF;
+		background: #e80028;
+	}
+	.tabTitle li:hover a{
+		color: #FFF;
+	}
+	.tabTitle li.twoLine{
+		/*padding-top: 8px;*/
+	}
+	.tabTitle li a{
+		color: #2b2b2b; 
+		font-size: 13px; 
+		font-family: 'arial, 宋体'; 
+		text-decoration: none;
+		display: inline-block;
+		width: 100%;
+		line-height: 22px;
+		vertical-align: middle;
+		box-sizing:border-box;
+	}
+	.tabTitle li:last-child{
+		border-right: none;
+		
+	}
+	.tabTitle td.show a{
+		color: #FFF !important;
+	}
+	.tabTitle li.show{
+		background: #e80028;
+	}
+	.tabTitle li.show a{
+		color: #FFF;
+
+	}
+	.tabTitle li.show .arrow{
+		display: block;
+		position: absolute;
+		left: 50%;
+		margin-left: -10px;
+		bottom: -44px;
+	}
+	.changeTab {
+		display: none;
+	}
+	.changeTab.show{
+		display: table-row;
+	}
+
+
+	/*curpage style*/
+	.table_1 th,
+	.table_1 td{
+		font-size: 12px;
+		font-family: Arial;
+	}
+	.table_1 tr td:nth-child(1){
+		padding-left: 20px;
+	}
+	.table_1 tr td:nth-child(2){
+		text-align: center;
+	}
+	.table_1 .thline{
+		color: #FFF;
+		background: #949899;
+		font-weight: normal;
+		height: 42px;
+		line-height: 42px;
+		border-right: 1px solid #949899;
+		border-left: 1px solid #949899;
+	}
+	.table_1 .tdline{
+		color: #949899;
+		height: 35px;
+		line-height: 35px;
+		border: 1px solid #CCC;
+	}
+	.table_6_1 tr th{
+		border: none;
+	}
+	.table td{
+		color: #949899;
+		font-size: 12px;
+		font-family: Arial;
+		height: 35px;
+		line-height: 35px;
+		border: 1px solid #CCC;
+		text-align: center;
+	}
+	.table tr:nth-child(odd){
+		background: #efefef;
+	}
+	.table th{
+		color: #FFF;
+		background: #949899;
+		font-weight: normal;
+		font-size: 12px;
+		height: 42px;
+		line-height: 42px;
+		border-right: 1px solid #949899;
+		border-left: 1px solid #949899;
+		text-align: center;
+	}
+	.ListPage3{
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	.ListPage4.ListPage4{
+		width: 92%;
+	}
+	.ListPage3 a{
+		color: #5c5c5c;
+	}
+	.ListPage3 li{
+		color: #5c5c5c;
+		font-size: 12px;
+		font-family: 'arial, 宋体';
+		list-style: none;
+		line-height: 22px;
+		word-break: break-all;
+	}
+	.ListPage3 li.title{
+		color: #000;
+	}
+	.ListPage3 li.marTop{
+		/*margin-top: 10px;*/
+	}
+	.ListPage3_1{
+		width: 100%;
+		padding-left: 0;
+	}
+	.ListPage3_11{
+		width: 90%;
+		padding-left: 0;
+	}
+	/*special*/
+	.ListSpecial{
+		width: 100%;
+		padding-left: 0;
+		position: relative;
+	}
+	.ListSpecial li{
+		float: left;
+	}
+	.ListSpecial .left{
+		width: 175px;
+		position: relative;
+	}
+	.ListSpecial .right{
+		width: 545px;
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+	.doubHeight{
+		/*height: 70px !important;*/
+	}
+	.red{
+		color: #e80028 !important;
+	}
+	.arrowRight{
+		position: absolute;
+		right: -545px;
+		top: 25%;
+	}
+	.arrowRight_2{
+		top: 50%;
+	}
+	.arrowRight_3{
+		top: 75%;
+	}
+	.listBg{
+			padding-left: 15px;
+			background: url(images/arrowLeftRed.png) left 6px no-repeat;
+			background-size: 6px;
+		}
+	.titleHT { font-weight: bold; font-family: 'arial,黑体' !important; color: #000 !important; }
+	@media (max-width: 1024px) {
+		.tabTitle li:hover{
+			color: #2b2b2b;
+			background: #FFF;
+		}
+		.tabTitle li:hover a{
+			color: #2b2b2b;
+		}
+	}
+	@media (max-width: 799px) {
+		.res_table{
+			width: 100% !important;
+			max-width:800px;
+			height: auto !important;
+		}
+		.res_table .banner img,
+		.footer img{
+			width: 100% !important;
+			max-width: 800px;
+			height: auto !important;
+		}
+		.arrowRight{
+			right: 0;
+		}
+		.ListSpecial .right{
+			width:500px;
+		}
+
+		.tabTitle li{
+			width: 16.6%;
+		}
+		/*.tabTitle li.twoLine{
+			padding-top: 13px;
+		}*/
+		.tabTitle li a{ width: 100%;    }
+
+		/*banner*/
+		.banner{ position: relative; }
+		.bannerWords{
+			position: absolute;
+			bottom: 8%;
+			left: 4%;
+			color: #FFF;
+			font-family: '黑体';
+			word-spacing:2px; 
+			letter-spacing: 1px;
+			
+		}
+		.bannerWords h2{ padding: 0 0 1.5%; margin: 0; font-size: 23px; letter-spacing: 2px;}
+		.bannerWords h3{ padding: 0 0 3.5%; margin: 0;  font-size: 14px; letter-spacing: 2px; }
+		.bannerWords p{ padding: 0 0 1.5%; margin: 0;  font-family: 'arial, 黑体'; word-spacing:2px; }
+		.bannerWords .bannerTime{ display: inline-block; height: 30px; line-height: 30px; width: 80px; background: #FFF; text-align: center; padding-bottom: 0;}
+
+	}
+	@media (max-width: 680px) {
+		ul{ margin: 0; padding: 0; }
+		ul li{ list-style-type:disc; }
+		.Pc{
+			display: none !important;
+		}
+		.Mb{
+			display: block !important;
+		}
+		.resetWidth{ width: 66px; }
+		.changeH{ height: 10px !important; }
+		.changeW{ width: 10px !important; }
+		.doubHeight{ height: 35px !important; }
+		.ListSpecial .left{ width: 162px ; }
+		.logo img{
+			width: 112px !important;
+			height: auto !important;
+			vertical-align: middle !important;
+		}
+		table th,
+		table td,
+		ul li{
+			font-size: 13px !important;
+			word-break: break-word;
+		}
+		ul li{ max-height: 999999px; }
+		.tabTitle{
+			width: 100%;
+		}
+		
+		.tabTitle li.show .arrow{ bottom: -39px; }
+		.tabTitle li a{line-height: 13px; 
+			    font-family: 'arial, 宋体';}
+		
+		.List{ width: 100%;     box-sizing: border-box; margin: 0 auto;     padding-left: 20px;}
+		.List li{ font-size: 13px;  line-height: 22px; list-style-type: none;}
+		.List1{ margin-top: 10px; width: 90%; padding-left: 10px;}
+		.List1 li{ padding-left:10px; background: url('images/dot.png') left 10px no-repeat;  
+			background-size: 3px 3px;}
+
+	}
+</style>
+
+</head>
+
+<body style="margin:0px; padding:0px;">
+
+<table class="res_table container" width="800" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+	<tbody>
+		<!-- top -->
+		<tr >
+			<td valign="top" class="logo" align="right">
+				<img src="images/logo.jpg" alt="logo" border="0" width="186" height="64" class="logoImg" />
+			</td>
+		</tr>
+		<tr class="Pc">
+			<td valign="top" class="banner">
+				<img src="images/banner.png" border="0" width="800" height="290" alt="banner" class="bannerImg"/>
+			</td>
+		</tr>
+		<tr class="Mb">
+			<td valign="top" class="banner">
+				<img src="images/bannerMb.png" border="0" width="800" height="290" alt="banner" class="bannerImg"/>
+				<div class="bannerWords">
+					<h2>是德科技</h2>
+					<h3>中国分销商新闻快讯</h3>
+					<p>Keysight News for Distributors China</p>
+					<p class="bannerTime red">2017年5月</p>
+				</div>
+			</td>
+		</tr>
+		<!-- 本期重点提示 -->
+		<tr>
+			<td valign="top">
+				<table width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr><td class="changeH" colspan="2" height="20">&nbsp;</td></tr>
+					<tr>
+						<td valign="center" align="center" width="54" height="50" style="background: #eaeaea;">
+							<img src="images/icon_1.png" alt="" border="0" width="31" height="39" />
+						</td>
+						<td valign="center" height="50" style="font-family:'arial,黑体' !important; font-size: 14px !important; background: #eaeaea;"><strong>本期重点提示</strong></td>
+					</tr>
+				</table>
+				<table class="Pc" width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr><td height="14">&nbsp;</td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="7"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                    关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="12" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="14" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="7"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	【价格变化】请即刻登录Gateway下载2017年6月份最新价格表。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="9" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="7"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	东盟免税产品有变化，详情请见【文档共享】中的【东盟免税】
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="9" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+					<tr><td height="8"></td></tr>
+					<tr>
+						<td>
+							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+	                            <tbody>
+	                            <tr>
+	                                <td height="7"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                	<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
+	                                </td>
+	                            </tr>
+	                            <tr valign="top" height="19" class="autoHeight">
+	                                <td width="42" valign="top" style="text-align: center;">
+	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
+	                                </td>
+	                            </tr>
+	                            </tbody>
+	                        </table>
+						</td>
+					</tr>
+				</table>
+				<ul class="Mb List List1">
+					<li>
+						关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
+					</li>
+					<li>
+						FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
+					</li>
+					<li>
+						【价格变化】请即刻登录Gateway下载2017年6月份最新价格表。
+					</li>
+					<li>
+						东盟免税产品有变化，详情请见【文档共享】中的【东盟免税】
+					</li>
+					<li>
+						<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
+					</li>
+				</ul>
+			</td>
+		</tr>
+		<tr><td valign="top" height="10"></td></tr>
+		<!-- 切换标题 -->
+		<tr>
+			<td>
+				<ul class="tabTitle clearb">
+				 	<li >
+				 		<a href="index_01.html" >现货供应</a>
+				 	</li>
+				 	<li class="twoLine">
+				 		<a href="#" >产品订货及促销</a>
+				 	</li>
+				 	<li class="twoLine show">
+				 		<a href="index_03.html" >产品活动及信息</a>
+				 		<div class="arrow">
+				 			<img src="images/arrow.png" alt="">
+				 		</div>
+				 	</li>
+				 	<li>
+				 		<a href="#" >积分英雄榜</a>
+				 	</li>
+				 	<li>
+				 		<a href="#" >文档共享</a>
+				 	</li>
+				 	<li class="twoLine">
+				 		<a href="#" >常用及培训信息</a>
+				 	</li>
+				 </ul>
+			</td>
+		</tr>
+		<!-- 切换内容 3-->
+		<tr id="changeTab_1" class="changeTab changeTab_1 show">
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<!-- 标题 -->
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="28" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial,黑体'"><strong>【FY17 Q2-Q4 SPIFF奖励政策】</strong></td>
+								</tr>
+								<tr><td colspan="3" height="5"></td></tr>
+							</table>
+							<!-- 内容 -->
+							<ul class="ListPage3 ListPage3_1">
+								<li>
+										FY17年Q2-Q4（2017年2月1日至2017年10月31日）期间，是德将对如下产品支持进行返点奖励活动！
+								</li>
+								<li>	积分返点时间均为下个季度第一个月末，请大家仔细阅读以下规则。</li>
+								<li class="titleHT">		1.射频产品系列</li>
+								<li>	a）	包括N99xx系列手持表、N900A/B 射频信号分析仪、E5061/5063， N5171/N5181， E4980A/E4891A/E4982A ， N9342C/43C/44C</li>
+								<li>		b）	如果每位销售人员在每个季度中（按是德科技的财物季度计算）成功销售给最终用户多于2台（包括2台）以上型号的产品，并且从是德科技申请的特殊折扣不超过35%， 就有资格获得奖励。</li>
+								<li>	c）	奖励积分： 5000 积分/台主机</li>
+								<li>	d）	分销商之间的相互调货的，将不予以计算在内</li>
+								<li>	e）	仅适用于以下RMU的主机:</li>
+							</ul>
+							
+							<!-- 表格1 -->
+							<table class="table_1" width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tbody>
+									<tr><td colspan="2" height="10"></td></tr>
+									<tr>
+										<th class="thline" height="30">RMU Description</th>
+										<th class="thline resetWidth" >RMU</th>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PLCM-FieldFoxSpectrumAnalyzer</td>
+										<td class="tdline tdr">250025</td>
+									</tr>
+									<tr>
+										<td class="tdline">0A PLWN ENA E5061 Series	</td>
+										<td class="tdline tdr">250151</td>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PLWN Handheld MW VNA	</td>
+										<td class="tdline tdr">251364</td>
+									</tr>
+									<tr>
+										<td class="tdline">	0A PLCM CXA	</td>
+										<td class="tdline tdr">253465</td>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PL15 EXG Analog	</td>
+										<td class="tdline tdr">257108</td>
+									</tr>
+									<tr>
+										<td class="tdline">0A PL15 MXG-B analog	</td>
+										<td class="tdline tdr">257192</td>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PL15 MXG Analog RF	</td>
+										<td class="tdline tdr">259244</td>
+									</tr>
+									<tr>
+										<td class="tdline">	0A PLWN HandHeld Family	</td>
+										<td class="tdline tdr">259616</td>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PLWN GP LCR	</td>
+										<td class="tdline tdr">259620</td>
+									</tr>
+									<tr>
+										<td class="tdline">0A PLCM Microwave Handheld Spectrum Analyzer</td>
+										<td class="tdline tdr">252799</td>
+									</tr>
+									<tr bgcolor="#efefef">
+										<td class="tdline">0A PL15 ESG-C Analog	</td>
+										<td class="tdline tdr">257596</td>
+									</tr>
+									<tr>
+										<td class="tdline">0A PLWN HVM DT	</td>
+										<td class="tdline tdr">259617</td>
+									</tr>
+									<tr><td colspan="2" height="10"></td></tr>
+								</tbody>
+							</table>
+							<!-- 2.示波器产品系列 -->
+							<ul class="ListPage3 ListPage3_1">
+								
+								<li class="titleHT">2.示波器产品系列</li>
+								<li>	a）	包括MOSX/DSOX 3000T系列和MOSX/DSOX4000 系列通用示波器</li>
+								<li>	b）	如果每位销售人员在每个季度中（按是德科技的财物季度计算）成功销售给最终用户多于3台（包括3台）以上型号的产品，并且从是德科技申请的特殊折扣不超过45%， 就有资格获得奖励。</li>
+								<li>c）	奖励积分： 2500 积分/台主机</li>
+								<li>	d）	分销商之间的相互调货的，将不予以计算在内</li>
+								<li>	e）	仅适用于以下RMU的主机:</li>
+								<li class="forHeight"></li>
+							</ul>
+							<!-- 表格2 -->
+							<table class="table table_2" width="100%" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr>
+									<td>0A PL1A_S-HVS2-GP Portable</td>
+									<td>251349</td>
+									<td>3000 X-Series, 3000T</td>
+								</tr>
+								<tr>
+									<td>0A PL1A_S-HVS1-HP Portable</td>
+									<td>256133</td>
+									<td>Only 4000 X-Series</td>
+								</tr>
+								<tr><td colspan="3" class="noBorder"></td></tr>
+							</table>
+							<!-- 3.源表产品系列  -->
+							<ul class="ListPage3 ListPage3_1">
+								
+								<li class="titleHT">	3.源表产品系列</li>
+								<li>	a）	包括B2900 系列SMU， B298x 系列和B296x 仪表</li>
+								<li>		b）	如果每位销售人员在每个季度中（按是德科技的财物季度计算）成功销售给最终用户多于2台（包括2台）以上型号的产品，并且从是德科技申请的特殊折扣不超过35%， 就有资格获得奖励。</li>
+								<li>	c）	奖励积分： 2500 积分/台主机</li>
+								<li>	d）	分销商之间的相互调货的，将不予以计算在内</li>
+								<li>e）	仅适用于以下RMU的主机:</li>
+								<li class="forHeight"></li>
+							</ul>
+							<!-- 表格3 -->
+							<table class="table table_3" width="100%" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr>
+									<td>0A  HSTD GP Precision Instrument</td>
+									<td>252866</td>
+								</tr>
+								<tr><td colspan="2" class="noBorder"></td></tr>
+							</table>
+
+							<!-- 4.大功率电源系列   -->
+							<ul class="ListPage3 ListPage3_1">
+								<li class="titleHT">	4.大功率电源系列</li>
+								<li>	a）	包括N6900/N7900， N8900， PQA， N8957APV等大功率电源产品</li>
+								<li>	b）	如果每位销售人员在每个季度中（按是德科技的财物季度计算）成功销售给最终用户多于2台（包括2台）以上型号的产品，并且从是德科技申请的特殊折扣不超过35%， 就有资格获得奖励。</li>
+								<li>	c）	奖励积分： 5000 积分/台主机</li>
+								<li>	d）	分销商之间的相互调货的，将不予以计算在内</li>
+								<li>	e）	仅适用于以下RMU的主机:</li>
+								<li class="forHeight"></li>
+							</ul>
+							<table class="table table_4" width="100%" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr>
+									<th >型号</th>
+									<th style=" font-family: Arial;">RMU Code</th>
+								</tr>
+								<tr>
+									<td>n6900/N7900系列电源</td>
+									<td>295461</td>
+								</tr>
+								<tr>
+									<td>PA2200系列功率分析仪</td>
+									<td>295462</td>
+								</tr>
+								<tr>
+									<td>N8900 15Kw以上电源及附件</td>
+									<td>295626/295627</td>
+								</tr>
+								<tr>
+									<td>N8900 5kW-10kW直流电源</td>
+									<td>295527</td>
+								</tr>
+							</table>
+							<!-- 【是德科技 示波器（3000T/4000X/6000X）买一送一 活动细则说明】-->
+							<!-- 标题 -->
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="22" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial,黑体'"><strong>【是德科技 示波器（3000T/4000X/6000X）买一送一 活动细则说明】-- 仅适用于大中华区分销伙伴</strong></td>
+								</tr>
+								<tr><td colspan="3" height="15"></td></tr>
+							</table>
+							<ul class="ListPage3 ListPage3_1">
+								<li class="title titleHT"><strong>背景：</strong></li>
+								<li >激励各分销伙伴销售更多地将是德科技的示波器产品推向客户。 </li>
+								<li class="title marTop titleHT"><strong>简述：</strong></li>
+								<li >在 2017.3.1 至 2017.9.30 期间，购买 <span class="red">3000T/4000X/6000X </span>的最终用户，出示注册码给到是德科技分销伙伴，可获得由分销伙伴赠出的同等数量 100MHz DSOX1102G 示波器。是德科技将对各分销伙伴进行 100MHz DSOX1102G 示波器返点补偿。  </li>
+								<li class="title marTop titleHT"><strong>详细规则：</strong> </li>
+								<li>1）周期：2017.3.1 至 2017.9.30，每个季度做一次返点。 </li>
+								<li>2）区域：大中华地区（包括台湾地区）。 </li>
+								<li>3）活动流程：</li>
+								<li>
+									<ul class="ListPage3 List2">
+										<li>
+											a） 分销商通过市场宣传，邀请对是德科技示波器感兴趣的最终客户通过以下网址进行注册并获得注册码，最终客户需要提供完整公司全称及联系方式。
+										</li>
+										<li>
+											宣传页面： http://insight-china.cn/tmo/events/20170111/landing-page.aspx 
+										</li>
+										<li>
+											繁体宣传页面： http://insight-china.cn/tmo/events/20170111/landing-page-tw.aspx?code=TW 
+										</li>
+										<li>
+											繁体注册页面： http://insight-china.cn/tmo/events/20170111/index_tw.aspx?code=TW 
+										</li>
+										<li><a href="#">注： </a></li>
+										<li>
+											<ul class="ListPage3 List3 noPaddingLeft">
+												<li>
+													
+													（1）注册的客户只能是最终用户，不能为代理商或其他二级代理，请各位分销伙伴销售时注意判断识别；公司名称一定要填写完整正确。 
+												</li>
+												<li>
+													（2）客户填写好省份或者地区后，会自动弹出选择框 ，问是否联系过分销商，如果是分销商自己挖掘的客户，一定要让客户写联系过分销商，并选择该分销商名字。 
+												</li>
+												<li>
+													（3）是德在收到系统发的邮件后，如果有填写分销商，就会直接转发给对应的分销商以及对应区域的销售，如果没有写分销商，就会转发给对应区域的销售经理 
+												</li>
+												<li>
+													（4）如果是二级代理的客户，请选择“其他”，并填写二级代理的名字。
+												</li>
+											</ul>
+										</li>
+										<li>
+											b）当最终客户向分销商购买 3000T/4000X/6000X 时，可凭注册码获得等同数量的 100MHz DSOX1102G 示波器（即：DSOX1102G+ DSOX1B7T102）。	
+										</li>
+										<li>
+											注：该 DSOX1102G 示波器由分销伙伴直接送出，但<span class="red">必须</span> <a href="#">在与最终客户的合同及发票中备注标明“免费赠送 100 MHz DSOX1102G 示波器（含升级件 DSOX1B7T102）”等字样。 </a>
+										</li>
+										<li>
+											c） 从四月开始，此促销活动将由全球分销商团队统一核算。每月上报 POS 时需要将 Promotion Num 6.012 或 6012 填于“促销号”列，赠送 DSOX1102G 及 DSOX1B7T102 的售价请填写为 0。 
+										</li>
+										<li>
+											d） 是德科技将每月向各分销伙伴收集带注册码的 POS 并与注册后台数据进行核对，若 POS 中的最终客户确实有注册，并提供了正确的注册码，是德将对此项 POS 对分销伙伴进行返点补偿。 
+										</li>
+										<li>
+											e） 补偿规则： 
+										</li>
+										<li>
+											<ul class="ListPage3 List3 noPaddingLeft">
+												<li>
+													（1）每月核对，每月补偿； 
+												</li>
+												<li>
+													（2）每台满足要求的 POS 补偿额度为（DSOX1102G+ DSOX1B7T102）批量含税后价格（当地货币）。当前补偿额度即：CN: （DSOX1102G+ DSOX1B7T102）RMB 单价*（1-29%）*（1+17%）*（1+6%）（其中17%为增值税，6%为开具发票税）；TW: TWD 单价*（1-29%）*（1+5%）*（1+5%）（其中 5% 为营业税，5% 为开具发票时的营业税）。当前批量折扣为29%。
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>4）注意事项：</li>
+								<li>
+									<ul class="ListPage3 List2 ">
+										<li>
+											a） 对于提供注册码的用户，<a href="#">分销伙伴有义务判断识别是否为最终用户以及促销码的真实性</a>（分销伙伴可要求用户提供是德科技发送的促销码邮件来检验其真实性 ---- 注册时的用户信息需要与购买时的用户信息一致）。此次活动只对最终客户有效。是德相关人员（朱华朋）会将相应促销码信息发给各分销伙伴。 
+										</li>
+										<li>
+											b） 目前是德发布的 DSOX1102G 仅为 70MHz 示波器，请各位分销伙伴赠送客户时请同时赠送 DSOX1B7T102（70M 到 100M 的升级件）。 
+										</li>
+										<li>
+											c） 是德将对赠送 DSOX1102G 的分销商进行<a href="#">最终用户的发票、合同抽查</a>，对查出的没有<span class="red">注明赠送</span>的订单，<span class="red">是德将要求分销商以目录单价购买等量相同型号的 3000T/4000X/6000X 示波器及 DSOX1102G (包括 DSOX1B7T102 70M 到 100M 的升级件)</span>。 
+										</li>
+										<li>
+											d） 根据二级分销商管理办法，是德不允许分销商将 3000T/4000X/6000X 示波器销售给二级分销商。对于客户要求：必须通过贸易商进行采购产品，经过是德分销管理团队商讨，对于此类销售模式“示波器买一送一”活动细则增加如下规定： 
+										</li>
+										<li>
+											<ul class="ListPage3 List2 noPaddingLeft">
+												<li>
+													（1）分销伙伴需要在签订合同前<span class="red">取得各分销经理书面批复</span>，并抄送彭睿以作备案。 需要提供如下信息：
+												</li>
+												<li>
+													<table class="table table_5" width="100%" border="0" align="left" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+														<tr>
+															<th>分销伙伴</th>
+															<th>贸易商</th>
+															<th>最终用户</th>
+															<th>促销码</th>
+															<th>产品</th>
+															<th>数量</th>
+														</tr>
+														<tr>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+													</table>
+												</li>
+												<li>
+													（2）同样，分销伙伴<span class="red">必须要求</span>贸易商提供与最终用户签订的带备注的<span class="red">合同及发票</span><a href="#">（“免费赠送 100 MHz DSOX1102G 示波器（含升级件 DSOX1B7T102）”等字样）</a>，同时，<span class="red">分销伙伴与贸易商签订的合同及发票</span>同样需要添加如上备注。分销伙伴有义务保存“分销伙伴与贸易商”以及“贸易商与最终客户”之间的合同及发票以备查验。
+												</li>
+											</ul>
+										</li>
+										<li>
+											e） 从 4 月起至 2017 年 9 月 30 日期间，若最终客户有参加此活动，分销商必须在每月初上报给 Entomo 系统时注意以下事项： 
+										</li>
+										<li>
+											<ul class="ListPage3 List2 noPaddingLeft">
+												<li>
+													（1）上报 POS（3000T/4000X/6000X以及DSOX1102G/ DSOX1B7T102）时请一定准确填写以下信息，避免不匹配导致 rebate 丢失，是德科技有权要求各分销伙伴提供各销售相关记录等证明。 
+												</li>
+												<li>
+													<ul class="ListPage3 List3 noPaddingLeft">
+														<li>
+															a）“Partner Name”            ---分销商名称  
+														</li>
+														<li>
+															b）“Shipment Date            ---交于最终用户日期     
+														</li>
+														<li>
+															c）“Customer”                   ---最终用户 
+														</li>
+														<li>
+															d）“Matched Item” – product sold to the end customer，需要与order匹配上 
+														</li>
+														<li>
+															e）“Quantity” 
+														</li>
+														<li>
+															f）“Promo Num.” – 6.012or 6012 should be populated to qualify，促销号
+														</li>
+														<li>
+															g）“Unit Resale (USD)” – is used to validate the price sold to the end customer，给最终用户的价格
+														</li>
+													</ul>
+												</li>
+												<li>
+													（2）赠送的 DSOX1102G/ DSOX1B7T102 售卖价请填写为 0。
+												</li>
+												<li>
+													（3）同时，是德（彭睿）也会每月向各位收集带注册码（客户提供），用于进行市场评估。
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+
+							</ul>
+							<!-- PED 产品停产计划 -->
+							<!-- 标题 -->
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="22" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial, 黑体'"><strong>【PED 产品停产计划】</strong></td>
+								</tr>
+								<tr><td colspan="3" height="15"></td></tr>
+							</table>
+							<ul class="ListPage3 ListPage3_1">
+								<li>
+									以下系列电源产品即将停产，为了避免本次变动对各家后续销售造成影响，请各位注意客户需求趋势及供货情况！
+								</li>
+								<li>
+									6030 series DC system power supplies will be discontinued July 1, 2016
+								</li>
+								<li>
+									6060 series single input electronic loads will be discontinued July 1, 2016
+								</li>
+								<li>
+									6610C series DC system power supplies will be discontinued June 1, 2017
+								</li>
+								<li>
+									6620 series DC system power supplies will be discontinued July 1, 2016
+								</li>
+								<li>
+									6630B series DC system power supplies will be discontinued June 1, 2017
+								</li>
+								<li>
+									附（各产品替代型号以及最终订单截止日期）：
+								</li>
+								<li class="forHeight"></li>
+							</ul>
+							<!-- 滑动功能 -->
+							<ul id="ListSpecial" class="ListPage3 ListSpecial clearb">
+								<li id="ListSpecialLeft" class="left" width="173">
+									<table class="table table_6" width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+										<tr>
+											<th>即将停产的产品</th>
+										</tr>
+										<tr>
+											<td align="left">6030A</td>
+										</tr>
+										<tr>
+											<td class="doubHeight"  align="left">6031A</td>
+										</tr>
+										<tr>
+											<td  align="left">6032A</td>
+										</tr>
+										<tr>
+											<td  align="left">6033A</td>
+										</tr>
+										<tr>
+											<td  align="left">6035A</td>
+										</tr>
+										<tr>
+											<td  align="left">6038A</td>
+										</tr>
+										<tr>
+											<td  align="left">6060系列电子负载</td>
+										</tr>
+										<tr>
+											<td  align="left">6611C</td>
+										</tr>
+										<tr>
+											<td  align="left">6612C</td>
+										</tr>
+										<tr>
+											<td  align="left">6613C</td>
+										</tr>
+										<tr>
+											<td  align="left">6614C</td>
+										</tr>
+										<tr>
+											<td  align="left">6621A</td>
+										</tr>
+										<tr>
+											<td  align="left">6622A</td>
+										</tr>
+										<tr>
+											<td  align="left">6623A</td>
+										</tr>
+										<tr>
+											<td  align="left">6624A</td>
+										</tr>
+										<tr>
+											<td  align="left">6625A</td>
+										</tr>
+										<tr>
+											<td  align="left">6626A</td>
+										</tr>
+										<tr>
+											<td  align="left">6627A</td>
+										</tr>
+										<tr>
+											<td  align="left">6628A</td>
+										</tr>
+										<tr>
+											<td  align="left">6629A</td>
+										</tr>
+										<tr>
+											<td  align="left">6631B</td>
+										</tr>
+										<tr>
+											<td  align="left">6632B</td>
+										</tr>
+										<tr>
+											<td  align="left">6633B</td>
+										</tr>
+										<tr>
+											<td  align="left">6634B</td>
+										</tr>
+									</table>
+									<img src="images/arrowRight.png" alt="" class="arrowRight arrowRight_1">
+									<img src="images/arrowRight.png" alt="" class="arrowRight arrowRight_2">
+									<img src="images/arrowRight.png" alt="" class="arrowRight arrowRight_3">
+								</li>
+								<li id="ListSpecialRight" class="right">
+
+									<table class="table table_6" width="1200" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+										<tr>
+											<th width="450">替代产品</th>
+											<th width="120">宣布停产日期</th>
+											<th>下单截止日</th>
+											<th>发运截止日</th>
+											<th>support截止日</th>
+										</tr>
+										<tr>
+											<td>
+												N8761A, N8921A/N8941A, or N6977A/N7977A
+											</td>
+											<td rowspan="6">
+												July 1, 2016
+											</td>
+											<td rowspan="6">
+												September 30, 2016
+											</td>
+											<td rowspan="6">
+												January 1, 2017	
+											</td>
+											<td rowspan="6">
+												January 1, 2022
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N8920A/N8940A, N8734A, N8756A, or N6971A/N7971A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N8737A, N6972A, N6973A, N7972A, or N7973A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N5744A or N6700B w/ 1 x N6753A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N8742A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N5747A or N6700B w/ 1 x N6754A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N3300 系列电子负载
+											</td>
+											<td>
+												July 1, 2016
+											</td>
+											<td>
+												September 30, 2016
+											</td>
+											<td>
+												January 1, 2017
+											</td>
+											<td>
+												January 1, 2022
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6732B, N6751A, or E36102A
+											</td>
+											<td rowspan="4">
+												June 1, 2017
+											</td>
+											<td rowspan="4">
+												August 31, 2017		
+											</td>
+											<td rowspan="4">
+												September 1, 2017
+											</td>
+											<td rowspan="4">
+												December 1, 2022
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6733B, N6751A, or E36103A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6735B, N6745B, N6751A, E36104A, or E36105A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6746B or E36106A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 2 x N6752A
+											</td>
+											<td rowspan="9">
+												July 1, 2016
+											</td>
+											<td rowspan="9">
+												September 30, 2016
+											</td>
+											<td rowspan="9">
+												January 1, 2017
+											</td>
+											<td rowspan="9">
+												January 1, 2022
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 2 x N6752A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 2 x N6751A and 1 x N6752A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 4 x N6751A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 1 x N6761A and 1 x N6762A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 2 x N6761A and 2 x N6762A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 4 x N6751A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 2 x N6762A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6700B w/ 4 x N6762A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6742B or N6752A
+											</td>
+											<td rowspan="4">
+												June 1, 2017
+											</td>
+											<td rowspan="4">
+												August 31, 2017
+											</td>
+											<td rowspan="4">
+												December 1, 2017
+											</td>
+											<td rowspan="4">
+												December 1, 2022
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6743B or N6752A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6752A or N6762A
+											</td>
+										</tr>
+										<tr>
+											<td>
+												N6746B
+											</td>
+										</tr>
+									</table>
+									
+								</li>
+							</ul>
+							<!-- 切换内容end -->
+						</td>
+					</tr>
+					<tr><td height="15" >&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+		<!-- N6705C 即将替代 N6705B -->
+		<tr>
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="12" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial, 黑体'"><strong>【N6705C 即将替代 N6705B】</strong></td>
+								</tr>
+								<tr><td height="12" >&nbsp;</td></tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<ul class="ListPage3 ListPage3_1 ListPage4">
+					<li>N6705C已经于2016年11月1日开始订货啦~以下为N6705C及其替代产品N6705B相关信息。</li>
+					<li>	1）	N6705C的功能与N6705B完全一样，只有以下两点不同：</li>
+					<li>
+						<ul  class="ListPage3">
+							<li>	a）	N6705C 采用了新的颜色。这种颜色将是是德产品的主流颜色—黑色；</li>
+							<li>	b）	N6705C 符合 RoHS 最新的标准要求。</li>
+						</ul>
+					</li>
+					<li>2）	N6705C 的价格与 N6705B 完全一样，并兼容所有目前 N6700 系列的电源模块。</li>	
+					<li>3）	N6705B 最后的订货日期是 2017 年 7 月 31 日。	</li>
+					<li>4）	如果分销商希望将现有的库存 N6705B 退回，以更换新 N6705C，可以向我们提出书面申请；详情请咨询饶骞。</li>	
+					<li>5）	N6705C 的批量折扣与 N6700 系列和 N6705B 相同，并且可以混搭不同的型号。	</li>
+					<li>6）	N6705C 的发布日期是 2016 年 12 月 1 日， 交货时间是收到订单后 6 个月。</li>
+				</ul>
+			</td>
+		</tr>
+		<!-- N6700C 即将替代 N6700B -->
+		<tr>
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="12" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial, 黑体'"><strong>【N6700C 即将替代 N6700B】</strong></td>
+								</tr>
+								<tr><td height="12" >&nbsp;</td></tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<ul class="ListPage3 ListPage3_1 ListPage4">
+					<li>N6700C主机将从3月1日开始订货, 包括N6700C， N6701C 和N6702C。请大家安排库存 </li>
+					<li>1）	N6700C 系列的功能与 N6700A/B 完全一样，但 C 系列采用了新的颜色。这种颜色将是是德产品的主流颜色 </li>
+					
+					<li>2）	C 系列的价格与 N6700A/B 系列完全一样，并兼容所有目前 N6700 系列的电源模块</li>	
+					<li>3）	N6700 A/B 系列最后的订货日期是 2017 年 7 月 31 日 	</li>
+					<li>4）	如果分销商希望将现有的库存 N6700A/B 退回，以更换新 C 系列，可以向我们提出书面申请 </li>	
+					<li>5）	C 系列的批量折扣与 N6700 A/B 系列和 N6705C 相同，并且可以混搭不同的型号 	</li>
+					<li>6）	C 系列的发布日期是 2017 年 3 月 1 日， 交货时间是收到订单后 4-6 周</li>
+				</ul>
+				
+			</td>
+		</tr>
+		<!-- Keysight RSD 工厂介绍 -->
+		<tr>
+			<td>
+				<table width="92%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+					<tr>
+						<td>
+							<table width="100%" border="0" align="center" bgcolor="#FFF" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
+								<tr><td height="12" >&nbsp;</td></tr>
+								<tr>
+									<td width="8" height="50" style="background: #e80028; "></td>
+									<td width="10" style="background: #eaeaea;"></td>
+									<td style="background: #eaeaea; font-size: 14px; font-family: 'arial, 黑体'"><strong>【Keysight RSD 工厂介绍】</strong></td>
+								</tr>
+								<tr><td height="12" >&nbsp;</td></tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				
+				<ul class="ListPage3 ListPage3_1 ListPage4">
+					<li>	Keysight Premium Used 为您提供了大量精选的高品质测试设备。每台设备都会经过严格的翻新流程，经过翻新，各设备的性能指标和外观都能达到新机的标准。您可以以更少的成本获得具有百分之百质量和性能的 Keysight 产品。 </li>
+					<li>	我们的亮点及承诺：</li>
+					
+					<li>	1）	翻新仪表的外壳均为新置换。</li>	
+					<li>	2）	翻新仪表同享标准的三年保修服务，并可扩展为五年。	</li>
+					<li>	3）	翻新仪表的随机选件也可同享主机折扣。</li>	
+					<li>	4）	根据用户需求，我们可以提供原厂包装箱。	</li>
+					<li class="listBg"><a class="nounderLine red" href="#">点击查询 RSD 工厂 详情介绍</a></li>
+					<li class="listBg"><a class="nounderLine red" href="#">点击观赏视频：是德科技 Keysight 翻新设备 - 物超所值的高质量设备</a></li>
+				</ul>
+			</td>
+		</tr>
+		<!-- footer -->
+		<tr>
+			<td class="footer" align="center"><img src="images/end.jpg" alt="" width="800" height="144" border="0"></td>
+		</tr>
+		<tr>
+			<td  bgcolor="#555555" height="36" align="center" style="color:#ffffff;font-size:12px;font-family:arial,宋体;">
+	&copy; Keysight Technologies 2000-2017</td>
+		</tr>
+	</tbody>
+</table>
+<script type="text/javascript">
+	
+	
+	window.onload=function(){
+		restTab();
+	};
+	window.onresize=function(){
+		restTab();
+	};
+	function restTab(){
+		// var arrowRight = document.querySelector('.arrowRight');
+		var arrowRight = document.getElementsByClassName('arrowRight');
+		var screenW = window.innerWidth;
+		var tab = document.getElementById('ListSpecial');
+		var tabW = tab.clientWidth;
+		var tabR = document.getElementById('ListSpecialRight');
+		var tabRW = tabR.clientWidth;
+		var tabL = document.getElementById('ListSpecialLeft');
+		var tabLW = tabL.clientWidth;
+		tabR.style.width = screenW * 0.9 - 1;
+		tabW = screenW * 0.9 - 1;
+		if (screenW < 800) {
+			tabRW = tabW - tabLW;
+			tabR.style.width = tabRW + 'px';
+			for(var i = 0; i < arrowRight.length;i++){
+				arrowRight[i].style.right = '-' + tabRW + 'px';
+			}
+		}
+	}
+			
+	
+	
+</script>
+</body>
+</html>
