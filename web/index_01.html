@@ -25,6 +25,9 @@
 		text-decoration: none;
 		color: #000;
 	}
+	.Mb{
+		display: none !important;
+	}
 	.red{ color: #e80327; }
 	.arrow{
 		display: none;
@@ -176,9 +179,9 @@
 		.List1 li{ padding-left:10px; background: url('images/dot.png') left 10px no-repeat;  
 			background-size: 3px 3px;}
 
-		.ListTable{ width: 100%; border: 4px solid #eaeaea; padding: 15px; }
+		.ListTable{ width: 100%; border: 4px solid #eaeaea; padding: 0 15px 15px; }
 		.ListTable li{ width: 100%;  }
-		.ListTableLine{ padding-left: 0; width: 100%; border-bottom: 1px solid #eaeaea; padding-bottom: 10px;}
+		.ListTableLine{ width: 100%; border-bottom: 1px solid #eaeaea; padding: 8px 2px 10px 0;}
 		.noBorder{ border-bottom:none; }
 		.ListTableLine li{  }
 		.ListTableLine li.title{ font-size: 14px; font-weight: bold; }
@@ -229,7 +232,7 @@
 						<td valign="center" align="center" width="54" height="50" style="background: #eaeaea;">
 							<img src="images/icon_1.png" alt="" border="0" width="31" height="39" />
 						</td>
-						<td valign="center" height="50" style="font-family:'arial,黑体' !important; font-size: 14px !important; background: #eaeaea;"><strong>本期重点提示</strong></td>
+						<td valign="center" height="50" style="font-family:'arial,宋体'; font-size: 14px; background: #eaeaea;"><strong>本期重点提示</strong></td>
 					</tr>
 				</table>
 				<table class="Pc" width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
@@ -244,7 +247,7 @@
 	                                    关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="12" class="autoHeight">
+	                            <tr valign="top" height="9" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -264,7 +267,7 @@
 	                                	FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="14" class="autoHeight">
+	                            <tr valign="top" height="27" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -320,11 +323,11 @@
 	                            <tbody>
 	                            <tr>
 	                                <td height="5"></td>
-	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';">
 	                                	<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="19" class="autoHeight">
+	                            <tr valign="top" height="9" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -358,7 +361,7 @@
 		<tr>
 			<td>
 				<ul class="tabTitle clearb">
-				 	<li class="show">
+				 	<li class="show" onclick="window.location.reload('index_01.html')">
 				 		<a href="index_01.html" >现货供应</a>
 				 		<div class="arrow">
 				 			<img src="images/arrow.png" alt="">
@@ -367,7 +370,7 @@
 				 	<li class="twoLine">
 				 		<a href="#" >产品订货及促销</a>
 				 	</li>
-				 	<li class="twoLine">
+				 	<li class="twoLine" onclick="window.location.reload('index_03.html')">
 				 		<a href="index_03.html" >产品活动及信息</a>
 				 	</li>
 				 	<li>

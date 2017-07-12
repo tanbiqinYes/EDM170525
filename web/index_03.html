@@ -294,6 +294,14 @@
 		.bannerWords p{ padding: 0 0 1.5%; margin: 0;  font-family: 'arial, 黑体'; word-spacing:2px; }
 		.bannerWords .bannerTime{ display: inline-block; height: 30px; line-height: 30px; width: 80px; background: #FFF; text-align: center; padding-bottom: 0;}
 
+		.tabTitle li:hover{
+			color: #2b2b2b;
+			background: #FFF;
+		}
+		.tabTitle li:hover a{
+			color: #2b2b2b;
+		}
+
 	}
 	@media (max-width: 680px) {
 		ul{ margin: 0; padding: 0; }
@@ -375,7 +383,7 @@
 						<td valign="center" align="center" width="54" height="50" style="background: #eaeaea;">
 							<img src="images/icon_1.png" alt="" border="0" width="31" height="39" />
 						</td>
-						<td valign="center" height="50" style="font-family:'arial,黑体' !important; font-size: 14px !important; background: #eaeaea;"><strong>本期重点提示</strong></td>
+						<td valign="center" height="50" style="font-family:'arial,宋体'; font-size: 14px; background: #eaeaea;" onclick="window.location.reload('index_01.html')"><strong>本期重点提示1</strong></td>
 					</tr>
 				</table>
 				<table class="Pc" width="92%" border="0" align="center" cellpadding="0" cellspacing="0"  style="border-spacing: 0px;border-collapse: collapse;font-size: 0px;">
@@ -385,12 +393,12 @@
 							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
 	                            <tbody>
 	                            <tr>
-	                                <td height="7"></td>
+	                                <td height="5"></td>
 	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
 	                                    关注可调用的分销产品库存资源内容<span style="color: #e80327">有更新</span>，详情请见【现货供应】中的“关注可调用的分销产品库存资源”。
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="12" class="autoHeight">
+	                            <tr valign="top" height="9" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -410,7 +418,7 @@
 	                                	FY17 HVS BOGO 激励政策具体详情<span style="color: #e80327">有改动</span>，详情请见【产品信息及活动信息】中的【是德科技示波器 （3000T/4000X/6000X）买一送一 活动细则说明】
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="14" class="autoHeight">
+	                            <tr valign="top" height="27" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -425,7 +433,7 @@
 							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
 	                            <tbody>
 	                            <tr>
-	                                <td height="7"></td>
+	                                <td height="5"></td>
 	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
 	                                	【价格变化】请即刻登录Gateway下载2017年6月份最新价格表。
 	                                </td>
@@ -445,7 +453,7 @@
 							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
 	                            <tbody>
 	                            <tr>
-	                                <td height="7"></td>
+	                                <td height="5"></td>
 	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
 	                                	东盟免税产品有变化，详情请见【文档共享】中的【东盟免税】
 	                                </td>
@@ -465,12 +473,12 @@
 							<table class="res_table" cellpadding="0" cellspacing="0" border="0" width="100%">
 	                            <tbody>
 	                            <tr>
-	                                <td height="7"></td>
-	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';padding-right: 20px;">
+	                                <td height="5"></td>
+	                                <td rowspan="2" valign="top" style="font-size: 12px; color: #000; font-family:'arial,宋体';">
 	                                	<span style="color: #e80327">添加</span>RPL用户及应用判断工具，即Customer Screening Questionaire，详情请见【文档共享】。
 	                                </td>
 	                            </tr>
-	                            <tr valign="top" height="19" class="autoHeight">
+	                            <tr valign="top" height="9" class="autoHeight">
 	                                <td width="42" valign="top" style="text-align: center;">
 	                                    <img src="images/dot.png" width="3" height="3" border="0" style="vertical-align: middle;">
 	                                </td>
@@ -504,13 +512,13 @@
 		<tr>
 			<td>
 				<ul class="tabTitle clearb">
-				 	<li >
-				 		<a href="index_01.html" >现货供应</a>
+				 	<li onclick="window.location.reload('index_01.html')">
+				 		<a href="index_01.html" >现货供应1</a>
 				 	</li>
 				 	<li class="twoLine">
 				 		<a href="#" >产品订货及促销</a>
 				 	</li>
-				 	<li class="twoLine show">
+				 	<li class="twoLine show" onclick="window.location.reload('index_03.html')">
 				 		<a href="index_03.html" >产品活动及信息</a>
 				 		<div class="arrow">
 				 			<img src="images/arrow.png" alt="">
